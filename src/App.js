@@ -6,8 +6,8 @@ import stormBg from './assets/thunderstorms.jpg'
 
 function App() {
   return (
-    <div className="app">
-      <h1>Hello</h1>
+    <div className="app" style={{backgroundImage: `url(${sunBg})`}}>
+      
     </div>
   );
 }
